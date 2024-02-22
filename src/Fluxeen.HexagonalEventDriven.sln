@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluxeen.HexagonalEventDriven.WebApi", "Fluxeen.HexagonalEventDriven.WebApi\Fluxeen.HexagonalEventDriven.WebApi.csproj", "{926F9B76-1A39-4644-A55C-46DBD95E3AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluxeen.HexagonalEventDriven.Domain", "Fluxeen.HexagonalEventDriven.Domain\Fluxeen.HexagonalEventDriven.Domain.csproj", "{4F120DB5-2B50-454C-BDFD-8B0D143A0C3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluxeen.HexagonalEventDriven.Infraestructure", "Fluxeen.HexagonalEventDriven.Infraestructure\Fluxeen.HexagonalEventDriven.Infraestructure.csproj", "{693563A6-BFDF-4FE5-84E5-FE022554CDB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{0B12D790-98A1-41E8-86D0-D2D8E050DE31}"
+	ProjectSection(SolutionItems) = preProject
+		README-ES.md = README-ES.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{926F9B76-1A39-4644-A55C-46DBD95E3AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926F9B76-1A39-4644-A55C-46DBD95E3AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926F9B76-1A39-4644-A55C-46DBD95E3AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926F9B76-1A39-4644-A55C-46DBD95E3AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F120DB5-2B50-454C-BDFD-8B0D143A0C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F120DB5-2B50-454C-BDFD-8B0D143A0C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F120DB5-2B50-454C-BDFD-8B0D143A0C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F120DB5-2B50-454C-BDFD-8B0D143A0C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693563A6-BFDF-4FE5-84E5-FE022554CDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693563A6-BFDF-4FE5-84E5-FE022554CDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693563A6-BFDF-4FE5-84E5-FE022554CDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693563A6-BFDF-4FE5-84E5-FE022554CDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {227368C5-867C-4F9E-AF2A-254E30FA681E}
+	EndGlobalSection
+EndGlobal
