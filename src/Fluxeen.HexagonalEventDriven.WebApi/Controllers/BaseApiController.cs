@@ -20,4 +20,6 @@ public class BaseApiController<T> : ControllerBase where T : BaseApiController<T
     protected IMapper Mapper => _mapper ??= HttpContext.RequestServices.GetService<IMapper>();
     protected IConfiguration Configuration => _configuration ??= HttpContext.RequestServices.GetService<IConfiguration>();
 
+
+    
 }

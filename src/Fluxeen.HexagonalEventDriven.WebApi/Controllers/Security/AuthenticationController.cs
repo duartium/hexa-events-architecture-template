@@ -1,5 +1,6 @@
 ﻿using Fluxeen.HexagonalEventDriven.Domain.Security.DTOs;
 using Fluxeen.HexagonalEventDriven.Infraestructure.HttpManager;
+using Fluxeen.HexagonalEventDriven.Infraestructure.MainContext;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,9 +11,6 @@ namespace Fluxeen.HexagonalEventDriven.WebApi.Controllers.Security;
 [ApiVersion("1.0")]
 public class AuthenticationController : BaseApiController<AuthenticationController>
 {
-
-    public AuthenticationController() { }
-
     [AllowAnonymous]
     [HttpPost, Route("login")]
     public ActionResult Authenticate([FromBody] UserLogin request)
